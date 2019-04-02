@@ -10,5 +10,5 @@ def get_key():
                          scope='wall,offline').access_token)
 
 
-print(get_key())
+get_key()
 input('Для закрытия нажмите Enter...')
